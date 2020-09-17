@@ -5,8 +5,6 @@ const cors = require('cors')
 
 const app = express()
 const Person = require('./models/person')
-const { findById } = require('./models/person')
-const { response } = require('express')
 
 app.use(cors())
 app.use(express.json())
